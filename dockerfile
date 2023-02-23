@@ -14,7 +14,7 @@ RUN pip install -r requirements.txt
 ENV FLASK_APP=flaskr
 
 # Initialize the database
-RUN flask init-db
+RUN flask --app flaskr init-db
 
 # Make port 5000 available to the world outside this container
 EXPOSE 5000
