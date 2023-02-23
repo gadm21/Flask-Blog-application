@@ -20,4 +20,4 @@ RUN flask --app flaskr init-db
 EXPOSE 5000
 
 # Run app.py when the container launches
-CMD ["flask", "--app", "flaskr", "run"]
+CMD ["flask", "--app", "flaskr", "run", "-h", "0.0.0.0"]
