@@ -39,6 +39,12 @@ Open http://127.0.0.1:5000 in a browser.
 Docker 
 -------
 
+Install Docker 
+
+    $ sudo snap install docker
+
+Build and run
+
     $ docker build -t flask-blog-application .
     $ docker run flask-blog-application
 
