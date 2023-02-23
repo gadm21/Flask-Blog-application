@@ -1,5 +1,5 @@
-# Flask-Blog-application
-
+Flaskr
+======
 
 A basic blog application written in Flask.
 
@@ -29,6 +29,7 @@ Install Flaskr::
 Run
 ---
 
+.. code-block:: text
 
     $ flask --app flaskr init-db
     $ flask --app flaskr run --debug
@@ -36,13 +37,7 @@ Run
 Open http://127.0.0.1:5000 in a browser.
 
 
-Docker 
--------
-
-    $ docker build -t flask-blog-application .
-    $ docker run flask-blog-application
-
-<!-- Test
+Test
 ----
 
 ::
@@ -54,4 +49,4 @@ Run with coverage report::
 
     $ coverage run -m pytest
     $ coverage report
-    $ coverage html  # open htmlcov/index.html in a browser -->
+    $ coverage html  # open htmlcov/index.html in a browser
